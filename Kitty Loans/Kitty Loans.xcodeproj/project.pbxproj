@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF20758222B317B004D82C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20757222B317B004D82C9 /* AppDelegate.swift */; };
+		FAF2075A222B317C004D82C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20759222B317C004D82C9 /* ViewController.swift */; };
+		FAF2075D222B317C004D82C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2075B222B317C004D82C9 /* Main.storyboard */; };
+		FAF2075F222B317D004D82C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2075E222B317D004D82C9 /* Assets.xcassets */; };
+		FAF20762222B317D004D82C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20760222B317D004D82C9 /* LaunchScreen.storyboard */; };
+		FAF2076D222B317D004D82C9 /* Kitty_LoansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2076C222B317D004D82C9 /* Kitty_LoansTests.swift */; };
+		FAF20778222B317D004D82C9 /* Kitty_LoansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20777222B317D004D82C9 /* Kitty_LoansUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF20769222B317D004D82C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF2074C222B317B004D82C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF20753222B317B004D82C9;
+			remoteInfo = "Kitty Loans";
+		};
+		FAF20774222B317D004D82C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF2074C222B317B004D82C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF20753222B317B004D82C9;
+			remoteInfo = "Kitty Loans";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF20754222B317B004D82C9 /* Kitty Loans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitty Loans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF20757222B317B004D82C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF20759222B317C004D82C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF2075C222B317C004D82C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF2075E222B317D004D82C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF20761222B317D004D82C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF20763222B317D004D82C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF20768222B317D004D82C9 /* Kitty LoansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitty LoansTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2076C222B317D004D82C9 /* Kitty_LoansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitty_LoansTests.swift; sourceTree = "<group>"; };
+		FAF2076E222B317D004D82C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF20773222B317D004D82C9 /* Kitty LoansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitty LoansUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF20777222B317D004D82C9 /* Kitty_LoansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitty_LoansUITests.swift; sourceTree = "<group>"; };
+		FAF20779222B317D004D82C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF20751222B317B004D82C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF20765222B317D004D82C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF20770222B317D004D82C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF2074B222B317B004D82C9 = {
+			isa = PBXGroup;
+			children = (
+				FAF20756222B317B004D82C9 /* Kitty Loans */,
+				FAF2076B222B317D004D82C9 /* Kitty LoansTests */,
+				FAF20776222B317D004D82C9 /* Kitty LoansUITests */,
+				FAF20755222B317B004D82C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF20755222B317B004D82C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20754222B317B004D82C9 /* Kitty Loans.app */,
+				FAF20768222B317D004D82C9 /* Kitty LoansTests.xctest */,
+				FAF20773222B317D004D82C9 /* Kitty LoansUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF20756222B317B004D82C9 /* Kitty Loans */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20757222B317B004D82C9 /* AppDelegate.swift */,
+				FAF20759222B317C004D82C9 /* ViewController.swift */,
+				FAF2075B222B317C004D82C9 /* Main.storyboard */,
+				FAF2075E222B317D004D82C9 /* Assets.xcassets */,
+				FAF20760222B317D004D82C9 /* LaunchScreen.storyboard */,
+				FAF20763222B317D004D82C9 /* Info.plist */,
+			);
+			path = "Kitty Loans";
+			sourceTree = "<group>";
+		};
+		FAF2076B222B317D004D82C9 /* Kitty LoansTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2076C222B317D004D82C9 /* Kitty_LoansTests.swift */,
+				FAF2076E222B317D004D82C9 /* Info.plist */,
+			);
+			path = "Kitty LoansTests";
+			sourceTree = "<group>";
+		};
+		FAF20776222B317D004D82C9 /* Kitty LoansUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20777222B317D004D82C9 /* Kitty_LoansUITests.swift */,
+				FAF20779222B317D004D82C9 /* Info.plist */,
+			);
+			path = "Kitty LoansUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF20753222B317B004D82C9 /* Kitty Loans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2077C222B317D004D82C9 /* Build configuration list for PBXNativeTarget "Kitty Loans" */;
+			buildPhases = (
+				FAF20750222B317B004D82C9 /* Sources */,
+				FAF20751222B317B004D82C9 /* Frameworks */,
+				FAF20752222B317B004D82C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitty Loans";
+			productName = "Kitty Loans";
+			productReference = FAF20754222B317B004D82C9 /* Kitty Loans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF20767222B317D004D82C9 /* Kitty LoansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2077F222B317D004D82C9 /* Build configuration list for PBXNativeTarget "Kitty LoansTests" */;
+			buildPhases = (
+				FAF20764222B317D004D82C9 /* Sources */,
+				FAF20765222B317D004D82C9 /* Frameworks */,
+				FAF20766222B317D004D82C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF2076A222B317D004D82C9 /* PBXTargetDependency */,
+			);
+			name = "Kitty LoansTests";
+			productName = "Kitty LoansTests";
+			productReference = FAF20768222B317D004D82C9 /* Kitty LoansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF20772222B317D004D82C9 /* Kitty LoansUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF20782222B317D004D82C9 /* Build configuration list for PBXNativeTarget "Kitty LoansUITests" */;
+			buildPhases = (
+				FAF2076F222B317D004D82C9 /* Sources */,
+				FAF20770222B317D004D82C9 /* Frameworks */,
+				FAF20771222B317D004D82C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF20775222B317D004D82C9 /* PBXTargetDependency */,
+			);
+			name = "Kitty LoansUITests";
+			productName = "Kitty LoansUITests";
+			productReference = FAF20773222B317D004D82C9 /* Kitty LoansUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF2074C222B317B004D82C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Miriam Haart";
+				TargetAttributes = {
+					FAF20753222B317B004D82C9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAF20767222B317D004D82C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAF20753222B317B004D82C9;
+					};
+					FAF20772222B317D004D82C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAF20753222B317B004D82C9;
+					};
+				};
+			};
+			buildConfigurationList = FAF2074F222B317B004D82C9 /* Build configuration list for PBXProject "Kitty Loans" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF2074B222B317B004D82C9;
+			productRefGroup = FAF20755222B317B004D82C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF20753222B317B004D82C9 /* Kitty Loans */,
+				FAF20767222B317D004D82C9 /* Kitty LoansTests */,
+				FAF20772222B317D004D82C9 /* Kitty LoansUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF20752222B317B004D82C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF20762222B317D004D82C9 /* LaunchScreen.storyboard in Resources */,
+				FAF2075F222B317D004D82C9 /* Assets.xcassets in Resources */,
+				FAF2075D222B317C004D82C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF20766222B317D004D82C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF20771222B317D004D82C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF20750222B317B004D82C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2075A222B317C004D82C9 /* ViewController.swift in Sources */,
+				FAF20758222B317B004D82C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF20764222B317D004D82C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2076D222B317D004D82C9 /* Kitty_LoansTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2076F222B317D004D82C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF20778222B317D004D82C9 /* Kitty_LoansUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF2076A222B317D004D82C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF20753222B317B004D82C9 /* Kitty Loans */;
+			targetProxy = FAF20769222B317D004D82C9 /* PBXContainerItemProxy */;
+		};
+		FAF20775222B317D004D82C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF20753222B317B004D82C9 /* Kitty Loans */;
+			targetProxy = FAF20774222B317D004D82C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF2075B222B317C004D82C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF2075C222B317C004D82C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF20760222B317D004D82C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF20761222B317D004D82C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF2077A222B317D004D82C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF2077B222B317D004D82C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF2077D222B317D004D82C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B66H4BMMP;
+				INFOPLIST_FILE = "Kitty Loans/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.Kitty-Loans";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF2077E222B317D004D82C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B66H4BMMP;
+				INFOPLIST_FILE = "Kitty Loans/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.Kitty-Loans";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF20780222B317D004D82C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B66H4BMMP;
+				INFOPLIST_FILE = "Kitty LoansTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.Kitty-LoansTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty Loans.app/Kitty Loans";
+			};
+			name = Debug;
+		};
+		FAF20781222B317D004D82C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B66H4BMMP;
+				INFOPLIST_FILE = "Kitty LoansTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.Kitty-LoansTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty Loans.app/Kitty Loans";
+			};
+			name = Release;
+		};
+		FAF20783222B317D004D82C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B66H4BMMP;
+				INFOPLIST_FILE = "Kitty LoansUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.Kitty-LoansUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kitty Loans";
+			};
+			name = Debug;
+		};
+		FAF20784222B317D004D82C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B66H4BMMP;
+				INFOPLIST_FILE = "Kitty LoansUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.Kitty-LoansUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kitty Loans";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF2074F222B317B004D82C9 /* Build configuration list for PBXProject "Kitty Loans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2077A222B317D004D82C9 /* Debug */,
+				FAF2077B222B317D004D82C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2077C222B317D004D82C9 /* Build configuration list for PBXNativeTarget "Kitty Loans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2077D222B317D004D82C9 /* Debug */,
+				FAF2077E222B317D004D82C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2077F222B317D004D82C9 /* Build configuration list for PBXNativeTarget "Kitty LoansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF20780222B317D004D82C9 /* Debug */,
+				FAF20781222B317D004D82C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF20782222B317D004D82C9 /* Build configuration list for PBXNativeTarget "Kitty LoansUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF20783222B317D004D82C9 /* Debug */,
+				FAF20784222B317D004D82C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF2074C222B317B004D82C9 /* Project object */;
+}
