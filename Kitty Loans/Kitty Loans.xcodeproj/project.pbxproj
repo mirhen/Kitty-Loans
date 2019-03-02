@@ -14,6 +14,10 @@
 		FAF20762222B317D004D82C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20760222B317D004D82C9 /* LaunchScreen.storyboard */; };
 		FAF2076D222B317D004D82C9 /* Kitty_LoansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2076C222B317D004D82C9 /* Kitty_LoansTests.swift */; };
 		FAF20778222B317D004D82C9 /* Kitty_LoansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20777222B317D004D82C9 /* Kitty_LoansUITests.swift */; };
+		FAF2078E222B339A004D82C9 /* Management.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2078D222B339A004D82C9 /* Management.storyboard */; };
+		FAF20790222B33BD004D82C9 /* ManagementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2078F222B33BD004D82C9 /* ManagementController.swift */; };
+		FAF20792222B33D8004D82C9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20791222B33D8004D82C9 /* Home.storyboard */; };
+		FAF20794222B33F5004D82C9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20793222B33F5004D82C9 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FAF20773222B317D004D82C9 /* Kitty LoansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitty LoansUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF20777222B317D004D82C9 /* Kitty_LoansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitty_LoansUITests.swift; sourceTree = "<group>"; };
 		FAF20779222B317D004D82C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2078D222B339A004D82C9 /* Management.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Management.storyboard; sourceTree = "<group>"; };
+		FAF2078F222B33BD004D82C9 /* ManagementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementController.swift; sourceTree = "<group>"; };
+		FAF20791222B33D8004D82C9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FAF20793222B33F5004D82C9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				FAF20757222B317B004D82C9 /* AppDelegate.swift */,
-				FAF20759222B317C004D82C9 /* ViewController.swift */,
-				FAF2075B222B317C004D82C9 /* Main.storyboard */,
+				FAF2078B222B3327004D82C9 /* Services */,
+				FAF2078A222B3322004D82C9 /* Models */,
+				FAF20789222B331E004D82C9 /* Views */,
+				FAF2078C222B333A004D82C9 /* Controllers */,
+				FAF20788222B3316004D82C9 /* Storyboards */,
+				FAF20787222B3312004D82C9 /* Helpers */,
+				FAF20786222B3308004D82C9 /* Extentions */,
+				FAF20785222B32FC004D82C9 /* Supporting */,
 				FAF2075E222B317D004D82C9 /* Assets.xcassets */,
-				FAF20760222B317D004D82C9 /* LaunchScreen.storyboard */,
-				FAF20763222B317D004D82C9 /* Info.plist */,
 			);
 			path = "Kitty Loans";
 			sourceTree = "<group>";
@@ -123,6 +135,70 @@
 				FAF20779222B317D004D82C9 /* Info.plist */,
 			);
 			path = "Kitty LoansUITests";
+			sourceTree = "<group>";
+		};
+		FAF20785222B32FC004D82C9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20763222B317D004D82C9 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FAF20786222B3308004D82C9 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FAF20787222B3312004D82C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FAF20788222B3316004D82C9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20760222B317D004D82C9 /* LaunchScreen.storyboard */,
+				FAF2075B222B317C004D82C9 /* Main.storyboard */,
+				FAF2078D222B339A004D82C9 /* Management.storyboard */,
+				FAF20791222B33D8004D82C9 /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAF20789222B331E004D82C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAF2078A222B3322004D82C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAF2078B222B3327004D82C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAF2078C222B333A004D82C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20759222B317C004D82C9 /* ViewController.swift */,
+				FAF2078F222B33BD004D82C9 /* ManagementController.swift */,
+				FAF20793222B33F5004D82C9 /* HomeController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +305,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF2078E222B339A004D82C9 /* Management.storyboard in Resources */,
+				FAF20792222B33D8004D82C9 /* Home.storyboard in Resources */,
 				FAF20762222B317D004D82C9 /* LaunchScreen.storyboard in Resources */,
 				FAF2075F222B317D004D82C9 /* Assets.xcassets in Resources */,
 				FAF2075D222B317C004D82C9 /* Main.storyboard in Resources */,
@@ -256,6 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF20794222B33F5004D82C9 /* HomeController.swift in Sources */,
+				FAF20790222B33BD004D82C9 /* ManagementController.swift in Sources */,
 				FAF2075A222B317C004D82C9 /* ViewController.swift in Sources */,
 				FAF20758222B317B004D82C9 /* AppDelegate.swift in Sources */,
 			);
@@ -434,7 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7B66H4BMMP;
-				INFOPLIST_FILE = "Kitty Loans/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Kitty Loans/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7B66H4BMMP;
-				INFOPLIST_FILE = "Kitty Loans/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Kitty Loans/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
