@@ -242,7 +242,7 @@
                                     <outlet property="delegate" destination="EKs-l2-zMJ" id="gGd-6c-b02"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU'RE CHATTING WITH NORMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBi-MQ-W9V">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adopt a cat!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBi-MQ-W9V">
                                 <rect key="frame" x="70" y="32" width="251" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="gye-JR-WaI"/>
