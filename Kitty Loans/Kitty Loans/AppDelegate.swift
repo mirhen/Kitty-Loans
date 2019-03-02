@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Set default storyboard
+        configureInitialRootViewController(for: window)
+        
         return true
     }
 
@@ -42,5 +46,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate {
+    func configureInitialRootViewController(for window: UIWindow?) {
+        
+        let initialViewController: UIViewController
+       
+        initialViewController = UIStoryboard.initialViewController(for: .home)
+        
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
+    }
 }
 

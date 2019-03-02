@@ -18,6 +18,16 @@
 		FAF20790222B33BD004D82C9 /* ManagementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2078F222B33BD004D82C9 /* ManagementController.swift */; };
 		FAF20792222B33D8004D82C9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20791222B33D8004D82C9 /* Home.storyboard */; };
 		FAF20794222B33F5004D82C9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20793222B33F5004D82C9 /* HomeController.swift */; };
+		FAF20796222B34E5004D82C9 /* ChatbotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20795222B34E5004D82C9 /* ChatbotController.swift */; };
+		FAF20798222B383F004D82C9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20797222B383F004D82C9 /* Message.swift */; };
+		FAF2079A222B385D004D82C9 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20799222B385D004D82C9 /* OptionsView.swift */; };
+		FAF2079C222B386D004D82C9 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2079B222B386D004D82C9 /* MessagesCell.swift */; };
+		FAF2079E222B3888004D82C9 /* DateOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2079D222B3888004D82C9 /* DateOptionView.swift */; };
+		FAF207A0222B38A1004D82C9 /* MarkFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2079F222B38A1004D82C9 /* MarkFooterView.swift */; };
+		FAF207A2222B38C4004D82C9 /* ScriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF207A1222B38C4004D82C9 /* ScriptViewController.swift */; };
+		FAF207A4222B38D8004D82C9 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF207A3222B38D8004D82C9 /* Prompt.swift */; };
+		FAF207A6222B397E004D82C9 /* Date+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF207A5222B397E004D82C9 /* Date+Utility.swift */; };
+		FAF207A8222B3C2E004D82C9 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF207A7222B3C2E004D82C9 /* Storyboard+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,16 @@
 		FAF2078F222B33BD004D82C9 /* ManagementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementController.swift; sourceTree = "<group>"; };
 		FAF20791222B33D8004D82C9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FAF20793222B33F5004D82C9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FAF20795222B34E5004D82C9 /* ChatbotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotController.swift; sourceTree = "<group>"; };
+		FAF20797222B383F004D82C9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FAF20799222B385D004D82C9 /* OptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		FAF2079B222B386D004D82C9 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		FAF2079D222B3888004D82C9 /* DateOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateOptionView.swift; sourceTree = "<group>"; };
+		FAF2079F222B38A1004D82C9 /* MarkFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkFooterView.swift; sourceTree = "<group>"; };
+		FAF207A1222B38C4004D82C9 /* ScriptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptViewController.swift; sourceTree = "<group>"; };
+		FAF207A3222B38D8004D82C9 /* Prompt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		FAF207A5222B397E004D82C9 /* Date+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utility.swift"; sourceTree = "<group>"; };
+		FAF207A7222B3C2E004D82C9 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +129,7 @@
 				FAF2078B222B3327004D82C9 /* Services */,
 				FAF2078A222B3322004D82C9 /* Models */,
 				FAF20789222B331E004D82C9 /* Views */,
+				FAF2079F222B38A1004D82C9 /* MarkFooterView.swift */,
 				FAF2078C222B333A004D82C9 /* Controllers */,
 				FAF20788222B3316004D82C9 /* Storyboards */,
 				FAF20787222B3312004D82C9 /* Helpers */,
@@ -148,6 +169,8 @@
 		FAF20786222B3308004D82C9 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				FAF207A7222B3C2E004D82C9 /* Storyboard+Utility.swift */,
+				FAF207A5222B397E004D82C9 /* Date+Utility.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -155,6 +178,7 @@
 		FAF20787222B3312004D82C9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FAF207A3222B38D8004D82C9 /* Prompt.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -173,6 +197,9 @@
 		FAF20789222B331E004D82C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FAF2079B222B386D004D82C9 /* MessagesCell.swift */,
+				FAF20799222B385D004D82C9 /* OptionsView.swift */,
+				FAF2079D222B3888004D82C9 /* DateOptionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +207,7 @@
 		FAF2078A222B3322004D82C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAF20797222B383F004D82C9 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,9 +222,11 @@
 		FAF2078C222B333A004D82C9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAF207A1222B38C4004D82C9 /* ScriptViewController.swift */,
 				FAF20759222B317C004D82C9 /* ViewController.swift */,
 				FAF2078F222B33BD004D82C9 /* ManagementController.swift */,
 				FAF20793222B33F5004D82C9 /* HomeController.swift */,
+				FAF20795222B34E5004D82C9 /* ChatbotController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -334,9 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF207A0222B38A1004D82C9 /* MarkFooterView.swift in Sources */,
+				FAF207A4222B38D8004D82C9 /* Prompt.swift in Sources */,
+				FAF207A2222B38C4004D82C9 /* ScriptViewController.swift in Sources */,
 				FAF20794222B33F5004D82C9 /* HomeController.swift in Sources */,
+				FAF207A6222B397E004D82C9 /* Date+Utility.swift in Sources */,
+				FAF207A8222B3C2E004D82C9 /* Storyboard+Utility.swift in Sources */,
 				FAF20790222B33BD004D82C9 /* ManagementController.swift in Sources */,
 				FAF2075A222B317C004D82C9 /* ViewController.swift in Sources */,
+				FAF2079A222B385D004D82C9 /* OptionsView.swift in Sources */,
+				FAF20798222B383F004D82C9 /* Message.swift in Sources */,
+				FAF2079E222B3888004D82C9 /* DateOptionView.swift in Sources */,
+				FAF2079C222B386D004D82C9 /* MessagesCell.swift in Sources */,
+				FAF20796222B34E5004D82C9 /* ChatbotController.swift in Sources */,
 				FAF20758222B317B004D82C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
