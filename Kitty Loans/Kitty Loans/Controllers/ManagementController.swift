@@ -29,8 +29,7 @@ class ManagementController: UIViewController, SFSpeechRecognizerDelegate {
     
     @IBAction func voiceButtonPressed(_ sender: Any) {
         if isRecording == true {
-            audioEngine.stop()
-            recognitionTask?.cancel()
+            cancelRecording()
             isRecording = false
             voiceButton.backgroundColor = UIColor.gray
         } else {
@@ -77,7 +76,7 @@ class ManagementController: UIViewController, SFSpeechRecognizerDelegate {
                 self.detectedTextLabel.text = bestString
                 
             } else if let error = error {
-                self.sendAlert(message: "There has been a speech recognition error.")
+                // self.sendAlert(message: "There has been a speech recognition error.")
                 print(error)
             }
         })

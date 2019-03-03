@@ -23,6 +23,7 @@ class OptionsView: UIView {
     @IBAction func buttonTapped(_ sender: UIButton) {
         let userResponse = sender.currentTitle ?? ""
         delegate?.didTapResponseButton(userResponse, on: self)
+        
     }
     
     override func draw(_ rect: CGRect) {
@@ -43,4 +44,10 @@ class OptionsView: UIView {
             }
         }
     }
+    
+    func setLastButton(text: String) {
+        buttonThree.setTitle(text, for: .normal)
+    }
+    
+    
 }

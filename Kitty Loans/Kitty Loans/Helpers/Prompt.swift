@@ -30,11 +30,6 @@ extension ScriptViewController {
             messages.append(Message("Great, we’ll go over three simple questions."))
             messages.append(Message("First, how much should the loan be for?"))
             optionsView.setOptions(options: ["$25", "$50", "$500"])
-        } else if response == "$25" || response == "$50" || response == "$500" {
-            
-            messages.append(Message("Great, how long is the loan for?"))
-            loanAgreementScript(response: "3")
-            
         } else if response == "3" {
             optionsView.setOptions(options: ["Next", "yo", "do", "bro"])
             dateOptionView.isHidden = false
@@ -53,6 +48,11 @@ extension ScriptViewController {
             let initialViewController = UIStoryboard.initialViewController(for: .main)
             self.view.window?.rootViewController = initialViewController
             self.view.window?.makeKeyAndVisible()
+            
+        } else  {
+            
+            messages.append(Message("Great, how long is the loan for?"))
+            loanAgreementScript(response: "3")
             
         }
     }

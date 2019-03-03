@@ -53,7 +53,7 @@ extension AppDelegate {
         
         let initialViewController: UIViewController
        
-        initialViewController = UIStoryboard.initialViewController(for: .management)
+        initialViewController = UIStoryboard.initialViewController(for: .home)
         
         window?.rootViewController = initialViewController
         window?.makeKeyAndVisible()
